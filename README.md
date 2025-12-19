@@ -1,16 +1,7 @@
 ##################### OVEARLL FLOW #####################
 
-CSV Files
-  ↓
-Raw Data Ingestion
-  ↓
-Data Validation
-  ↓
-Clean Staging Data
-  ↓
-Analytics & Business Logic
-  ↓
-Customer Actions & Insights
+CSV Files ->Raw Data Ingestion ->Raw Data Ingestion ->Data Validation ->Clean Staging Data ->Analytics & Business Logic ->Customer Actions & Insights
+ 
 -------------------------------------------------------------------------------------------------------------------------
 ##  Inputs
 - Synthetic CSV files generated as per provided schemas
@@ -26,7 +17,7 @@ Customer Actions & Insights
 
 ---
 
-## 🗂️ Data Inputs
+## Data Inputs
 
 Synthetic datasets generated as per the provided schemas:
 
@@ -96,40 +87,5 @@ Synthetic datasets generated as per the provided schemas:
 
 ---
 
-## 📊 Flow Diagrams
 
-Task-wise Input → Process → Output flowcharts are created using **Python (Graphviz)** and are available in the Jupyter Notebook:
-
-👉 `Retail_Data_Pipeline_Flow.ipynb`
-
----
-
-## 🛠️ Tech Stack
-
-- Python (Data generation & processing)
-- SQL (Validation & analytics)
-- Pandas
-- SQLite / PostgreSQL
-- Jupyter Notebook
-
----
-
-## ⚠️ Assumptions & Limitations
-
-- Data is synthetically generated for demonstration purposes  
-- Email notifications are simulated (no real emails sent)  
-- Inventory loss is an estimated metric  
-
----
-
-## 📄 Detailed Documentation
-
-Detailed explanation, assumptions, and implementation notes are available here:  
-👉 *Google Docs link*
-
----
-
-### ⭐ Key Takeaway
-
-This project focuses on building a **reliable, explainable data pipeline** rather than isolated ML models.
 
