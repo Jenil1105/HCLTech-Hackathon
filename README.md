@@ -45,47 +45,64 @@ Synthetic datasets generated as per the provided schemas:
 
 ##  Task-wise Workflow (Input → Process → Output)
 
-### Task 1: Data Ingestion & Quality Validation
-- **Input:** Raw sales CSV files  
-- **Process:** Load into raw tables, apply data quality rules  
-- **Output:** Clean staging tables and quarantine records  
+ 
 
----
 
-### Task 2: Promotion Effectiveness Analysis
-- **Input:** Clean sales data, promotion details  
-- **Process:** Compare promoted vs non-promoted sales  
-- **Output:** Ranked promotions with sales uplift percentage  
 
----
 
-### Task 3: Loyalty Point Calculation
-- **Input:** Transaction totals, loyalty rules, customer data  
-- **Process:** Calculate earned points and update balances  
-- **Output:** Updated customer loyalty point balances  
 
----
+%3
 
-### Task 4: Customer Segmentation
-- **Input:** Sales history, loyalty balances  
-- **Process:** Compute RFM metrics and segment customers  
-- **Output:** High-Value and At-Risk customer groups  
 
----
 
-### Task 5: Loyalty Notification System
-- **Input:** Updated loyalty balances, customer emails  
-- **Process:** Generate personalized reward notifications  
-- **Output:** Simulated email logs  
+S
 
----
+SOURCE
+Unstructured / Semi-Structured Data
+(CSV Files)
 
-### Task 6: Inventory & Store Performance Analysis
-- **Input:** Sales data, inventory levels  
-- **Process:** Identify stock-outs and estimate lost sales  
-- **Output:** Inventory performance and lost revenue insights  
 
----
+
+R
+
+RAW LAYER
+As-Is Data Storage
+(No Validation)
+
+
+
+S->R
+
+
+
+
+
+P
+
+PROCESS
+• Load to RAW tables
+• Apply data quality rules
+• Validate & filter records
+
+
+
+R->P
+
+
+
+
+
+O
+
+OUTPUT
+• Clean Staging Tables
+• Ready for Analytics
+
+
+
+P->O
+
+
 
 
 
