@@ -32,7 +32,7 @@ Synthetic datasets generated as per the provided schemas:
 
 ---
 
-## 🔗 Core Table Relationships
+##  Core Table Relationships
 
 - **store_sales_header** → one row per transaction (linked to customers)
 - **store_sales_line_items** → multiple products per transaction
@@ -43,7 +43,7 @@ Synthetic datasets generated as per the provided schemas:
 
 ---
 
-## 🧩 Task-wise Workflow (Input → Process → Output)
+##  Task-wise Workflow (Input → Process → Output)
 
 ### Task 1: Data Ingestion & Quality Validation
 - **Input:** Raw sales CSV files  
